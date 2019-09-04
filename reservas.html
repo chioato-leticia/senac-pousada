@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reservas Pousada</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+         
+            <li>
+                <a href="index.html">Página Principal</a>
+            </li>
+            <li>
+                <a href="hospedagens.html">Hospedagens</a>
+            </li>
+            <li>
+                <a href="reservas.html">Reservas</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+            <div class="header_logo">
+              <img src="logo.png" alt="Logo Pousada" id="Logo" />
+              <h1>Pousada Recanto da Natureza</h1>
+            </div>
+    </header>
+
+    <article>
+        <h2>Fale Conosco!</h2>
+
+        <fieldset>
+            <legend>Conte-nos como foi sua experiência:</legend>
+            <form>
+
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" autofocus required>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>
+                </p>
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="telefone" id="senha" required>
+                </p>
+                <p>
+                    <label for="senha">Mensagem:</label>
+                    <input type="mensagem" id="senha" required>
+                </p>
+                <div class="box_formulario"> 
+                    <label for="turno">Assunto:</label>
+                    <select id="turno">
+                        <option value="v">Sugestões</option>
+                        <option value="r">Reclamações</option>
+                        <option value="s">Trabalhe Aqui</option>
+                        <option value="o">Outros</option>
+                        </select>
+                </div>
+                <div class="box_formulario">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+
+                </div>
+
+            </form>
+        </fieldset>
+
+
+
+    </article>
+    <footer>
+            Pousada Recanto da Natureza - Rua Gonçalves Chaves, 602 - Pelotas/RS
+    </footer>
+</body>
+
+</html>
